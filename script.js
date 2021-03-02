@@ -13,39 +13,24 @@ const nextBtn = document.getElementById('next');
 // Music
 const songs = [
   {
-    name: 'cover1',
-    displayName: 'Dead Veins',
-    artist: 'The Alchemists',
+    name: 'jacinto-1',
+    displayName: 'Electric Chill Machine',
+    artist: 'Jacinto Design',
   },
   {
-    name: 'cover2',
-    displayName: 'Miserable',
-    artist: 'The Alchemists',
+    name: 'jacinto-2',
+    displayName: 'Seven Nation Army (Remix)',
+    artist: 'Jacinto Design',
   },
   {
-    name: 'cover3',
-    displayName: '1984',
-    artist: 'The Alchemists',
+    name: 'jacinto-3',
+    displayName: 'Goodnight, Disco Queen',
+    artist: 'Jacinto Design',
   },
   {
-    name: 'cover4',
-    displayName: 'Little Town',
-    artist: 'The Alchemists',
-  },
-  {
-    name: 'cover5',
-    displayName: 'Sunny Days',
-    artist: 'The Alchemists',
-  },
-  {
-    name: 'cover6',
-    displayName: 'Monsters',
-    artist: 'The Alchemists',
-  },
-  {
-    name: 'cover7',
-    displayName: 'Tonight',
-    artist: 'The Alchemists',
+    name: 'metric-1',
+    displayName: 'Front Row (Remix)',
+    artist: 'Metric/Jacinto Design',
   },
 ];
 
@@ -112,7 +97,6 @@ function updateProgressBar(e) {
     // Update progress bar width
     const progressPercent = (currentTime / duration) * 100;
     progress.style.width = `${progressPercent}%`;
-    console.log(progressPercent)
     // Calculate display for duration
     const durationMinutes = Math.floor(duration / 60);
     let durationSeconds = Math.floor(duration % 60);
