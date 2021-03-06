@@ -1,1 +1,1 @@
-# js-song-player
+# JAVASCRIPT SONG PLAYER
